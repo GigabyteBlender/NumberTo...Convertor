@@ -43,7 +43,7 @@ class ConvertToRoman:
         i = 0
         
         while num > 0:
-            for _ in range(num // val[i]):
+            for x in range(num // val[i]):
                 roman_num += syb[i]
                 num -= val[i]
             i += 1
@@ -52,10 +52,3 @@ class ConvertToRoman:
     def Convert(self):
         decimal = int(input('Enter the number to convert: '))
         print(self.to_roman(decimal))
-
-if __name__ == '__main__':
-    main = ConvertToRoman()
-    main.Convert()
-
-    main = ConvertToDecimal()
-    main.Convert()

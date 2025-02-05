@@ -52,3 +52,21 @@ class ConvertToRoman:
     def Convert(self):
         decimal = int(input('Enter the number to convert: '))
         print(self.to_roman(decimal))
+
+class ConvertToBinary:
+
+    def to_binary(self, num):
+        return bin(num).replace("0b", "")
+
+    def Convert(self):
+        binary = int(input('Enter the number to convert to binary: '))
+        print(self.to_binary(binary))
+
+class ConvertToHexadecimal:
+    
+    def to_hexadecimal(self, num):
+        return hex(num).replace("0x", "")
+
+    def Convert(self):
+        hexadecimal = int(input('Enter the number to convert to hexadecimal: '))
+        print(self.to_hexadecimal(hexadecimal))

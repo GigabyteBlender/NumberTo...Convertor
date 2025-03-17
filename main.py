@@ -65,7 +65,7 @@ class ConvertToBinary:
 class ConvertToHexadecimal:
     
     def to_hexadecimal(self, num):
-        return hex(num).replace("0x", "")
+        return hex(num).replace("0x", "").upper()
 
     def Convert(self):
         hexadecimal = int(input('Enter the number to convert to hexadecimal: '))

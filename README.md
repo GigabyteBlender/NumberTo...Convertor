@@ -15,12 +15,12 @@ A versatile Python application for converting between different number systems: 
 - **User-Friendly Interface:**
   - Clear menu system
   - Guided input prompts
-  - Informative error messages
+  - Basic error messages
 
 - **Robust Error Handling:**
   - Input validation for all number formats
   - Appropriate range checking
-  - Graceful error recovery
+  - Basic error recovery
 
 ## Installation
 
